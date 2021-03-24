@@ -127,6 +127,45 @@ h1.section-title {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.middle-section{
+
+    background-color: #192a56;
+    height: 200px;
+    width: 800px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+.middle-sec{
+    float: left;
+    margin-top: 60px;
+    margin-left: 10px;
+  
+}
+.middle-sec h1{
+    color: white;
+}
+
+.middle-button{
+    float: right;
+}
+.middle-button .button {
+    background-color: rgb(255, 102, 0);
+    padding: 15px;
+    margin-top: 70%;
+    margin-right: 50px;
+    border-radius: 7px;
+    color: rgb(7, 12, 10);
+    text-transform: lowercase;
+}
+.middle-button .button:hover{
+    color:#000;
+    background: rgb(236, 227, 227);
+}
+
+
 footer {
     text-align: center;
     margin-top: 100px;
@@ -157,5 +196,5 @@ footer h1 a {
 
 }
 .social-menu i .fab{
-    color: royalblue;
+    color: rgb(94, 65, 225);
 }
